@@ -18,6 +18,8 @@ for i in range(5):
 
 for i in range(1,5):
     print(i)
+for i in range(1,10):
+    print(i)
 
 #while loop
 j=1
