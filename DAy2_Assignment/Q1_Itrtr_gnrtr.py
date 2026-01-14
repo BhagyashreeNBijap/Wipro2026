@@ -1,4 +1,4 @@
-#Create a custom iterator class that iterarte over numbers from 1 to n
+#Create a custom iterator class that iterate over numbers from 1 to n
 
 class NumberIterator:
     def __init__(self, n):
