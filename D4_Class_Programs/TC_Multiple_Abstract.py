@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod
+from abc import ABC,abstractmethod
 class BANK(ABC):
     @abstractmethod
     def interest(self):
@@ -9,10 +9,10 @@ class BANK(ABC):
 
 class SBI(BANK):
     def interest(self):
-        print("Interest is 12%")
+        print("interest is 6%")
     def loan(self):
-        print("Loan is available")
+        print("loan is available")
 
-s=SBI
+s=SBI()
 s.interest()
 s.loan()
