@@ -4,28 +4,62 @@
 3. Implement operator overloading by overloading the + operator to add two objects of a custom class
 4. Demonstrate polymorphism using the same method name with different behaviors give correct code '''
 
+# 1. Base class Calculator
 class Calculator:
     def calculate(self, a, b):
-        print("Addition:", a + b)
+        print("Calculator calculate (Addition):", a + b)
 
-class AdvanceCalculator(Calculator):
+
+# 2. Derived class overriding calculate method
+class AdvancedCalculator(Calculator):
     def calculate(self, a, b):
-        print("Multiplication:", a * b)
+        print("AdvancedCalculator calculate (Multiplication):", a * b)
 
+
+# 3. Operator overloading
 class Number:
-    def __init__(self, value):
-        self.value = value
+    def __init__(self, number):
+        self.number = number
 
     def __add__(self, other):
-        return Number(self.value + other.value)
+        return Number(self.number + other.number)
 
-c=Calculator()
-ac=AdvanceCalculator()
-c.calculate(1,2)
-ac.calculate(4,2)
+    def __str__(self):
+        return str(self.number)
 
-n1=Number(10)
-n2=Number(20)
-n3=n1 + n2
 
-print("Operator Overloading:",n3.value)
+# 4. Polymorphism using same method name
+class Operation:
+    def execute(self, a, b):
+        print("Generic operation")
+
+
+class Add(Operation):
+    def execute(self, a, b):
+        print("Add result:", a + b)
+
+
+class Multiply(Operation):
+    def execute(self, a, b):
+        print("Multiply result:", a * b)
+
+
+# Method overriding
+calc = Calculator()
+calc.calculate(5, 3)
+
+adv_calc = AdvancedCalculator()
+adv_calc.calculate(5, 3)
+
+
+# Operator overloading
+num1 = Number(10)
+num2 = Number(20)
+num3 = num1 + num2
+print("Operator overloading result:", num3)
+
+
+# Polymorphism
+operations = [Add(), Multiply()]
+for op in operations:
+    op.execute(5, 3)
