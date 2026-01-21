@@ -1,0 +1,54 @@
+[
+  {
+    "id": "031",
+    "name": "Bhagyashree N",
+    "department": "CSE",
+    "semester": 8,
+    "marks": [
+      90,
+      92,
+      99,
+      95,
+      88
+    ]
+  },
+  {
+    "id": "032",
+    "name": "Akash",
+    "department": "AI",
+    "semester": 6,
+    "marks": [
+      90,
+      95,
+      99,
+      96,
+      90
+    ]
+  },
+  {
+    "id": "035",
+    "name": "Abhi",
+    "department": "Mechanical",
+    "semester": 7,
+    "marks": [
+      90,
+      98,
+      94,
+      92,
+      90
+    ]
+  },
+  {
+    "id": "040",
+    "name": "Vinod",
+    "department": "EC",
+    "semester": 8,
+    "marks": [
+      90,
+      88,
+      94,
+      92,
+      90
+    ]
+  }
+]
