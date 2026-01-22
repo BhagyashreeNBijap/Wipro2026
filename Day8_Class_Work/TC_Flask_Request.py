@@ -2,6 +2,13 @@ import requests
 
 geturl1="http://127.0.0.1:5001/users"
 
+headers={
+    "Accept":"application/json",
+    "User-Agent":"Python-Requests-Client"
+
+}
+response=requests.get(geturl1,headers=headers,timeout=10)
+
 response=requests.get(geturl1)
 
 print("get status code",response.status_code)
