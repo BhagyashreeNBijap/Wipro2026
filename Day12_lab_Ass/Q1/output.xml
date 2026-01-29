@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.0 on win32)" generated="2026-01-30T00:12:22.862812" rpa="false" schemaversion="5">
+<suite id="s1" name="Q1" source="C:\Users\Admin\PycharmProjects\PythonProject\Lab\Day12\Q1.robot">
+<test id="s1-t1" name="TC1_Print User Details" line="10">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T00:12:22.918195" level="INFO">User name is: Bhagyashree</msg>
+<arg>User name is: ${name}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T00:12:22.917513" elapsed="0.000737"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Age is: ${age}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-30T00:12:22.920409" elapsed="0.000561"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Favorite colors: ${colors}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-30T00:12:22.921190" elapsed="0.000460"/>
+</kw>
+<status status="PASS" start="2026-01-30T00:12:22.916601" elapsed="0.005184"/>
+</test>
+<test id="s1-t2" name="TC2_List Demonstration" line="15">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-01-30T00:12:22.922781" level="INFO">First color is: Red</msg>
+<arg>First color is: ${colors}[0]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-01-30T00:12:22.922419" elapsed="0.000417"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Second color is: ${colors}[1]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-30T00:12:22.923121" elapsed="0.000235"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Third color is: ${colors}[2]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-30T00:12:22.923452" elapsed="0.000265"/>
+</kw>
+<status status="PASS" start="2026-01-30T00:12:22.922028" elapsed="0.001783"/>
+</test>
+<status status="PASS" start="2026-01-30T00:12:22.863902" elapsed="0.060186"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Q1" id="s1" pass="2" fail="0" skip="0">Q1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
