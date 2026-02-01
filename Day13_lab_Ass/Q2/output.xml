@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.0 on win32)" generated="2026-02-01T17:07:40.546986" rpa="false" schemaversion="5">
+<suite id="s1" name="Keyword Data Driven" source="C:\Users\Admin\PycharmProjects\PythonProject\Lab\Day13\Q2\keyword_data_driven.robot">
+<kw name="Open Browser To Login Page" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:40.906497" level="INFO">Opening browser 'chrome' to base url 'https://tutorialsninja.com/demo/index.php?route=account/login'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-01T17:07:40.906295" elapsed="3.280545"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-01T17:07:44.187158" elapsed="0.037687"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>name=email</arg>
+<arg>10s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-01T17:07:44.225064" elapsed="0.044256"/>
+</kw>
+<status status="PASS" start="2026-02-01T17:07:40.904732" elapsed="3.364832"/>
+</kw>
+<test id="s1-t1" name="Login as Admin" line="12">
+<kw name="Login With Credentials">
+<kw name="Input Credentials">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:44.273165" level="INFO">Typing text 'admin' into text field 'name=email'.</msg>
+<arg>name=email</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-01T17:07:44.272878" elapsed="0.154705"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:44.428321" level="INFO">Typing text 'admin123' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-01T17:07:44.427914" elapsed="0.116645"/>
+</kw>
+<arg>${username}</arg>
+<arg>${password}</arg>
+<status status="PASS" start="2026-02-01T17:07:44.272530" elapsed="0.272173"/>
+</kw>
+<kw name="Click Login">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:44.545354" level="INFO">Clicking button 'xpath=//input[@value='Login']'.</msg>
+<arg>xpath=//input[@value='Login']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-01T17:07:44.545169" elapsed="0.095562"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-01T17:07:46.642356" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-01T17:07:44.640979" elapsed="2.002262"/>
+</kw>
+<status status="PASS" start="2026-02-01T17:07:44.544899" elapsed="2.098877"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Verify Login Success">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:46.777158" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-01T17:07:46.777505" level="FAIL">Element with locator 'xpath=//a[text()='Logout']' not found.</msg>
+<arg>xpath=//a[text()='Logout']</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="FAIL" start="2026-02-01T17:07:46.646505" elapsed="0.352933">Element with locator 'xpath=//a[text()='Logout']' not found.</status>
+</kw>
+<status status="FAIL" start="2026-02-01T17:07:46.645928" elapsed="0.354043">Element with locator 'xpath=//a[text()='Logout']' not found.</status>
+</kw>
+<arg>Verify Login Success</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-02-01T17:07:46.644377" elapsed="0.355793"/>
+</kw>
+<arg>admin</arg>
+<arg>admin123</arg>
+<status status="PASS" start="2026-02-01T17:07:44.271885" elapsed="2.728557"/>
+</kw>
+<status status="PASS" start="2026-02-01T17:07:44.269726" elapsed="2.731347"/>
+</test>
+<test id="s1-t2" name="Login as User1" line="16">
+<kw name="Login With Credentials">
+<kw name="Input Credentials">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:47.006854" level="INFO">Typing text 'user1' into text field 'name=email'.</msg>
+<arg>name=email</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-01T17:07:47.006556" elapsed="0.094122"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:47.101185" level="INFO">Typing text 'user123' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-01T17:07:47.100889" elapsed="0.098107"/>
+</kw>
+<arg>${username}</arg>
+<arg>${password}</arg>
+<status status="PASS" start="2026-02-01T17:07:47.006181" elapsed="0.192949"/>
+</kw>
+<kw name="Click Login">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:47.199796" level="INFO">Clicking button 'xpath=//input[@value='Login']'.</msg>
+<arg>xpath=//input[@value='Login']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-01T17:07:47.199606" elapsed="0.678627"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-01T17:07:49.879329" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-01T17:07:47.878515" elapsed="2.001088"/>
+</kw>
+<status status="PASS" start="2026-02-01T17:07:47.199321" elapsed="2.680524"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Verify Login Success">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:50.019245" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-01T17:07:50.019385" level="FAIL">Element with locator 'xpath=//a[text()='Logout']' not found.</msg>
+<arg>xpath=//a[text()='Logout']</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="FAIL" start="2026-02-01T17:07:49.880946" elapsed="0.139699">Element with locator 'xpath=//a[text()='Logout']' not found.</status>
+</kw>
+<status status="FAIL" start="2026-02-01T17:07:49.880672" elapsed="0.140294">Element with locator 'xpath=//a[text()='Logout']' not found.</status>
+</kw>
+<arg>Verify Login Success</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-02-01T17:07:49.880059" elapsed="0.141040"/>
+</kw>
+<arg>user1</arg>
+<arg>user123</arg>
+<status status="PASS" start="2026-02-01T17:07:47.005447" elapsed="3.015772"/>
+</kw>
+<status status="PASS" start="2026-02-01T17:07:47.004515" elapsed="3.018731"/>
+</test>
+<test id="s1-t3" name="Login as Guest" line="20">
+<kw name="Login With Credentials">
+<kw name="Input Credentials">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:50.026392" level="INFO">Typing text 'guest' into text field 'name=email'.</msg>
+<arg>name=email</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-01T17:07:50.026070" elapsed="0.103634"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:50.130319" level="INFO">Typing text 'guest123' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-01T17:07:50.129985" elapsed="0.078365"/>
+</kw>
+<arg>${username}</arg>
+<arg>${password}</arg>
+<status status="PASS" start="2026-02-01T17:07:50.025588" elapsed="0.182919"/>
+</kw>
+<kw name="Click Login">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:50.209127" level="INFO">Clicking button 'xpath=//input[@value='Login']'.</msg>
+<arg>xpath=//input[@value='Login']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-01T17:07:50.208951" elapsed="0.046014"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-01T17:07:52.256247" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-01T17:07:50.255153" elapsed="2.001499"/>
+</kw>
+<status status="PASS" start="2026-02-01T17:07:50.208691" elapsed="2.048735"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Verify Login Success">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-02-01T17:07:52.419199" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-02-01T17:07:52.419480" level="FAIL">Element with locator 'xpath=//a[text()='Logout']' not found.</msg>
+<arg>xpath=//a[text()='Logout']</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="FAIL" start="2026-02-01T17:07:52.259586" elapsed="0.162358">Element with locator 'xpath=//a[text()='Logout']' not found.</status>
+</kw>
+<status status="FAIL" start="2026-02-01T17:07:52.258725" elapsed="0.163697">Element with locator 'xpath=//a[text()='Logout']' not found.</status>
+</kw>
+<arg>Verify Login Success</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-02-01T17:07:52.257819" elapsed="0.164850"/>
+</kw>
+<arg>guest</arg>
+<arg>guest123</arg>
+<status status="PASS" start="2026-02-01T17:07:50.025095" elapsed="2.397728"/>
+</kw>
+<status status="PASS" start="2026-02-01T17:07:50.023916" elapsed="2.399788"/>
+</test>
+<kw name="Close Browser" type="TEARDOWN">
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-02-01T17:07:52.426655" elapsed="2.195688"/>
+</kw>
+<status status="PASS" start="2026-02-01T17:07:52.426292" elapsed="2.196306"/>
+</kw>
+<status status="PASS" start="2026-02-01T17:07:40.548983" elapsed="14.073797"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Keyword Data Driven" id="s1" pass="3" fail="0" skip="0">Keyword Data Driven</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
