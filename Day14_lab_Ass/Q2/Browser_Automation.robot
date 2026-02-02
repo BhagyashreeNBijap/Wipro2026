@@ -4,6 +4,7 @@ Topics Covered: SeleniumLibrary, Built-in library Write a Robot Framework test c
 2. Interacts with: Text box, Radio button , Check box, Drop-down
 3. Uses Built-in keywords: Run Keyword If'''
 
+
 *** Settings ***
 Library    SeleniumLibrary
 
@@ -19,24 +20,29 @@ ${BROWSER}  chrome
 *** Test Cases ***
 Form Automation Test
 
-    # 1. Open Browser (done in Suite Setup)
-    # 2. Interact with Text Box
+    # Text Box
     Input Text    id=name      Bhagyashree
     Input Text    id=email     bhagyashree@gmail.com
 
-    # 2. Interact with Radio Button
+    # Radio Button
     Click Element    id=female
 
-    # 2. Interact with Check Box
+    # Check Box
     Click Element    id=sunday
 
-    # 2. Interact with Drop-down
+    # Drop-down
     Select From List By Label    id=country    India
 
-    # 3. Built-in keyword: Run Keyword If
-    Run Keyword If    '${BROWSER}' == 'chrome'    Log    Running test on Chrome
+    # Built-in keyword: Sleep
+    Sleep    2s
 
-    # Validation
+    # Built-in keyword: Run Keyword If
+    Run Keyword If    '${BROWSER}' == 'chrome'    Log    Running test on Chrome browser
+
+    # Screenshot
+    Capture Page Screenshot
+
+    # Validation (Form data validation)
     ${selected}=    Get Selected List Label    id=country
     Should Be Equal    ${selected}    India
 
@@ -45,3 +51,4 @@ Form Automation Test
 Open Test Browser
     Open Browser    ${URL}    ${BROWSER}
     Maximize Browser Window
+
