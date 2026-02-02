@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.0 on win32)" generated="2026-02-01T16:33:47.131093" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Datadriven" source="C:\Users\Admin\PycharmProjects\PythonProject\Lab\Day13\Q2\Tests\login_datadriven.robot">
+<test id="s1-t1" name="Login Test Using CSV" line="6">
+<status status="FAIL" start="2026-02-01T16:33:47.190485" elapsed="0.000909">Test cannot be empty.</status>
+</test>
+<status status="FAIL" start="2026-02-01T16:33:47.132418" elapsed="0.060797"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Datadriven" id="s1" pass="0" fail="1" skip="0">Login Datadriven</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-01T16:33:47.185592" level="ERROR">[ DataDriver ] Error in robot file:
+  File "C:\Users\Admin\PycharmProjects\PythonProject\Lab\Day13\Q2\Tests\login_datadriven.robot", line 0</msg>
+<msg time="2026-02-01T16:33:47.185904" level="ERROR">In source file:
+  File "C:\Users\Admin\PycharmProjects\PythonProject\Lab\Day13\Q2\Tests\..\Data\login_data.csv", line 0</msg>
+<msg time="2026-02-01T16:33:47.189101" level="ERROR">Calling method '_start_suite' of listener 'DataDriver' failed: ValueError: Unassigned requiered argument detected: ${username}.</msg>
+</errors>
+</robot>
