@@ -42,6 +42,5 @@ def update_user(user_id):
             return jsonify(user)
     return jsonify({"message": "user not found"}), 404
 
-
 if __name__=="__main__":
     app.run(debug=True,port=5001)
