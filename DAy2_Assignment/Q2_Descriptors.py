@@ -7,7 +7,6 @@ class PositiveSalary:
             raise ValueError("Salary must be a positive number")
         instance._salary = value
 
-
 class Employee:
     salary = PositiveSalary()   # descriptor
 
