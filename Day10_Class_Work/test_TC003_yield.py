@@ -11,7 +11,6 @@ def setup_teardown():
     yield
     print("teardown")
 
-
 def test_example(setup_teardown):
     print("test1 running")
 
