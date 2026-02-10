@@ -10,6 +10,7 @@ class Cat(Animal):
     def sound(self):
         print("Cat sound")
 
+
 obj=[Dog(),Cat()]
 
 for b in obj:
