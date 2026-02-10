@@ -11,5 +11,6 @@ class Manager(Employee):
     def salary(self):
         print(self.name,"Salary is 50000")
 
+
 m = Manager("Bhagya")
 m.salary()
