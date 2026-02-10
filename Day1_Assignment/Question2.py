@@ -9,6 +9,5 @@ even_set = {x for x in data if x%2==0}
 print(even_set)
 
 #3. Dictionary comprehension where the key is the number and value is its cube
-
 cube_dict={x:x**3 for x in data}
 print(cube_dict)
