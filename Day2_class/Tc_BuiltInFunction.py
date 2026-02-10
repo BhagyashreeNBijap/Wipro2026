@@ -1,4 +1,5 @@
 import math
+
 print(math.sqrt(64))
 print(math.log(100))
 print(math.gamma(100))
