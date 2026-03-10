@@ -334,11 +334,15 @@ cd Wipro2026
 
 ---
 
-### Install dependencies
+### 📦 Install Dependencies
+
+Run the following commands to install required packages:
+
+```
 pip install selenium
 pip install robotframework
 pip install pytest
-
+```
 ---
 
 ### Install ChromeDriver
