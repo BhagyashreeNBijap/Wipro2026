@@ -1,60 +1,51 @@
-🎓 Wipro 2026 Training – Test Automation Track
+# 🎓 Wipro 2026 Training – Test Automation Track
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org)
+[![Selenium](https://img.shields.io/badge/Selenium-Automation-green.svg)](https://selenium.dev)
+[![Robot Framework](https://img.shields.io/badge/Robot%20Framework-Testing-red.svg)](https://robotframework.org)
+[![Pytest](https://img.shields.io/badge/Pytest-Test%20Framework-yellow.svg)](https://pytest.org)
 
+> Comprehensive repository documenting my learning journey in **Software Test Automation during the Wipro 2026 Training Program**.
 
+---
 
+# 📋 Table of Contents
 
+- About
+- Repository Structure
+- Technology Stack
+- Daily Assignments & Class Work
+- Case Studies
+- Capstone Projects
+- Skills Gained
+- Installation & Setup
+- Running Automation Tests
+- Author
 
+---
 
+# 🚀 About
 
-This repository documents my learning journey in Software Test Automation during the Wipro 2026 Training Program.
+This repository contains **all assignments, case studies, automation labs, and capstone projects** completed during the **Wipro 2026 Training Program for Automation Testing**.
 
-📋 Table of Contents
+The training program focused on learning **Python automation with Selenium, Robot Framework, and Pytest** along with practical real-world testing scenarios.
 
-About
+This repository demonstrates:
 
-Repository Structure
+• Selenium Web Automation  
+• Python based automation scripts  
+• Robot Framework automation  
+• Real-world case study testing  
+• Capstone automation projects  
 
-Technology Stack
+---
 
-Daily Assignments & Class Work
-
-Case Studies
-
-Capstone Projects
-
-Skills Gained
-
-Installation & Setup
-
-Running Automation Tests
-
-Author
-
-🚀 About
-
-This repository contains all assignments, case studies, automation labs, and capstone projects completed during the Wipro 2026 Training Program for Automation Testing.
-
-The training focused on learning Python automation with Selenium, Robot Framework, and Pytest, along with practical testing scenarios.
-
-The repository demonstrates:
-
-Automation testing practices
-
-Selenium WebDriver usage
-
-Robot Framework automation
-
-Real-world testing case studies
-
-Capstone automation projects
-
-📁 Repository Structure
+# 📁 Repository Structure
 Wipro2026
 │
 ├── Capstone Project
-│   ├── Foodie_App
-│   └── Ecommerce_Automation_Project
+│ ├── Foodie_App
+│ └── Ecommerce_Automation_Project
 │
 ├── Case Study 3 - Online Movies Ticket Booking System
 ├── Case Study 4 - Hospital Management System
@@ -124,57 +115,50 @@ Wipro2026
 ├── Day23_Lab_Ass
 │
 └── README.md
-🛠 Technology Stack
-Programming Language
 
-Python
 
-Automation Tools
+---
 
-Selenium WebDriver
+# 🛠 Technology Stack
 
-Selenium IDE
+## Programming Language
 
-Testing Frameworks
+• Python
 
-Robot Framework
+## Automation Tools
 
-Pytest
+• Selenium WebDriver  
+• Selenium IDE  
 
-Other Tools
+## Testing Frameworks
 
-Git
+• Robot Framework  
+• Pytest  
 
-GitHub
+## Other Tools
 
-ChromeDriver
+• Git  
+• GitHub  
+• ChromeDriver  
+• HTML Reports  
 
-HTML Reports
+---
 
-📚 Daily Assignments & Class Work
+# 📚 Daily Assignments & Class Work
 
-The repository includes daily assignments and class work completed during training.
+The repository contains **daily assignments, lab exercises, and class programs** completed during training.
 
-Topics covered include:
+Topics practiced include:
 
-Python programming basics
+• Python programming basics  
+• Selenium WebDriver automation  
+• Web element locators  
+• Form automation  
+• Browser navigation  
+• Handling alerts and frames  
+• Automation scripting  
 
-Selenium WebDriver automation
-
-Element locators
-
-Web interactions
-
-Form automation
-
-Wait mechanisms
-
-Handling alerts and frames
-
-Automation scripts
-
-Daily work is organized into folders such as:
-
+Folders representing daily progress include:
 Day1_Assignment
 Day2_Assignment
 Day3_Class_Programs
@@ -183,218 +167,217 @@ Day4_Lab_Ass
 Day23_Class_Work
 Day23_Lab_Ass
 
-This structure reflects the progressive learning approach followed during training.
 
-📊 Case Studies
-Case Study 1 – Smart University Management System
+This structure reflects the **step-by-step learning approach followed during the training program**.
 
-Automation testing of a University Management System.
+---
 
-Features Tested
+# 📊 Case Studies
 
-Student registration
+## Case Study 1 – Smart University Management System
 
-Login functionality
+Automation testing of a **University Management System web application**.
 
-Course enrollment
+### Features Tested
 
-Student management
+• Student registration  
+• Login functionality  
+• Course enrollment  
+• Student management  
+• Navigation between modules  
 
-Navigation between modules
+### Tools Used
 
-Automation Tools
+• Python  
+• Selenium WebDriver  
 
-Python
+---
 
-Selenium WebDriver
+## Case Study 3 – Online Movie Ticket Booking System
 
-Case Study 3 – Online Movie Ticket Booking System
+Automation testing for a **Movie Ticket Booking System**.
 
-Automation testing for a Movie Ticket Booking System.
+### Test Scenarios
 
-Test Scenarios
+• User login  
+• Movie selection  
+• Seat booking  
+• Payment process  
+• Ticket confirmation  
 
-User login
+### Automation Concepts
 
-Movie selection
+• Selenium WebDriver  
+• Functional testing  
+• UI validation  
 
-Seat booking
+---
 
-Payment flow
+## Case Study 4 – Hospital Management System
 
-Ticket confirmation
+Automation testing for a **Hospital Management System application**.
 
-Concepts Used
+### Modules Tested
 
-Selenium automation
+• Patient registration  
+• Doctor management  
+• Appointment booking  
+• Medical records  
 
-UI validation
+### Automation Focus
 
-Functional testing
+• Selenium automation scripts  
+• Form handling  
+• Data validation  
 
-Case Study 4 – Hospital Management System
+---
 
-Automation testing for a Hospital Management System.
+# 🛒 Capstone Projects
 
-Modules Tested
-
-Patient registration
-
-Doctor management
-
-Appointment booking
-
-Medical records management
-
-Automation Focus
-
-Selenium test scripts
-
-Form automation
-
-Data validation
-
-🛒 Capstone Projects
-
-The Capstone Project demonstrates practical automation testing on real-world applications.
+The **Capstone Projects** demonstrate practical automation testing on real-world applications.
 
 Location:
-
 Capstone Project/
-🍽 Foodie App
 
-A sample Food Ordering Application used for automation practice.
+---
 
-Features Tested
+# 🍽 Foodie App
 
-User registration
+A sample **Food Ordering Application** used for automation testing practice.
 
-Restaurant listing
+### Features Tested
 
-Food item selection
+• User registration  
+• Restaurant listing  
+• Food item selection  
+• Order placement  
+• Order confirmation  
 
-Order placement
+### Technologies Used
 
-Order confirmation
+• Python  
+• Selenium WebDriver  
+• Robot Framework  
+• Pytest  
 
-Automation Tools
+---
 
-Python
+# 🛍 Ecommerce Automation Project
 
-Selenium
+Automation testing for an **Ecommerce Web Application**.
 
-Robot Framework
-
-Pytest
-
-🛍 Ecommerce Automation Project
-
-Automation testing for an Ecommerce Web Application.
-
-Repository Source:
+Project Source:  
 https://github.com/BhagyashreeNBijap/Wipro_Capstone_Project
 
-Automation Test Scenarios
+### Automation Test Scenarios
 
-User registration
+• User registration  
+• Login validation  
+• Product browsing  
+• Add products to cart  
+• Cart validation  
+• Checkout process  
 
-Login validation
+### Tools Used
 
-Product browsing
+• Python  
+• Selenium WebDriver  
+• Robot Framework  
+• Pytest  
 
-Add product to cart
+---
 
-Cart validation
+# 🎯 Skills Gained
 
-Checkout process
+Through this training program, I developed practical experience in:
 
-Technologies Used
+## Automation Testing
 
-Python
+• Selenium WebDriver automation  
+• UI testing  
+• Functional testing  
+• Automation scripting  
 
-Selenium WebDriver
+## Python Programming
 
-Robot Framework
+• Writing automation scripts  
+• Exception handling  
+• Modular programming  
 
-Pytest
+## Test Frameworks
 
-🎯 Skills Gained
+• Robot Framework  
+• Pytest  
 
-Through this training program, I developed skills in:
+## Web Testing
 
-Automation Testing
+• Web element locators  
+• Browser automation  
+• Form validation  
 
-Selenium WebDriver automation
+## Tools
 
-UI testing
+• Git version control  
+• GitHub repository management  
+• Chrome DevTools  
 
-Test case automation
+---
 
-Functional testing
+# ⚙ Installation & Setup
 
-Python Programming
-
-Writing automation scripts
-
-Exception handling
-
-Code modularization
-
-Test Frameworks
-
-Robot Framework
-
-Pytest
-
-Web Testing
-
-Element locators
-
-Browser automation
-
-Web form validation
-
-Tools
-
-Git
-
-GitHub
-
-Chrome DevTools
-
-⚙ Installation & Setup
-Clone the repository
+### Clone the repository
 git clone https://github.com/BhagyashreeNBijap/Wipro2026.git
+
 cd Wipro2026
-Install dependencies
+
+---
+
+### Install dependencies
 pip install selenium
 pip install robotframework
 pip install pytest
-Install ChromeDriver
 
-Download ChromeDriver compatible with your browser:
+---
+
+### Install ChromeDriver
+
+Download ChromeDriver compatible with your Chrome browser:
 
 https://chromedriver.chromium.org/
 
-▶ Running Automation Tests
-Run Selenium tests
+---
+
+# ▶ Running Automation Tests
+
+### Run Selenium tests
 python test_script.py
-Run Robot Framework tests
+
+### Run Robot Framework tests
 robot test.robot
-Run Pytest tests
+
+### Run Pytest tests
 pytest
-👩‍💻 Author
 
-Bhagyashree N Bijap
+---
 
-GitHub
+# 👩‍💻 Author
+
+**Bhagyashree N Bijap**
+
+GitHub  
 https://github.com/BhagyashreeNBijap
+
+https://www.linkedin.com/in/bhagyashreebijap/
 
 Wipro 2026 – Test Automation Training
 
-📌 Note
+---
 
-This repository was created as part of Wipro 2026 Automation Testing Training to demonstrate hands-on experience with automation tools and testing frameworks.
+# 📌 Note
+
+This repository was created as part of **Wipro 2026 Automation Testing Training** to demonstrate practical knowledge in automation testing tools and frameworks.
+
+---
 
 <div align="center">
 
