@@ -49,8 +49,8 @@ Wipro2026
 │   ├── Foodie_App
 │   └── Ecommerce_Automation_Project
 │
-├── Case Study 3 - Online Movies Ticket Booking System
-├── Case Study 4 - Hospital Management System
+├── Case Study 2 - Online Movies Ticket Booking System
+├── Case Study 3 - Hospital Management System
 ├── Case_Study1 (Smart University Management System)
 │
 ├── D4_Class_Programs
@@ -195,7 +195,7 @@ Automation testing of a **University Management System web application**.
 
 ---
 
-## Case Study 3 – Online Movie Ticket Booking System
+## Case Study 2 – Online Movie Ticket Booking System
 
 Automation testing for a **Movie Ticket Booking System**.
 
@@ -215,7 +215,7 @@ Automation testing for a **Movie Ticket Booking System**.
 
 ---
 
-## Case Study 4 – Hospital Management System
+## Case Study 3 – Hospital Management System
 
 Automation testing for a **Hospital Management System application**.
 
