@@ -161,16 +161,16 @@ Topics practiced include:
 • Automation scripting  
 
 Folders representing daily progress include:
-Day1_Assignment
-Day2_Assignment
-Day3_Class_Programs
-Day4_Lab_Ass
-...
-Day23_Class_Work
-Day23_Lab_Ass
 
+- Day1_Assignment  
+- Day2_Assignment  
+- Day3_Class_Programs  
+- Day4_Lab_Ass  
+- ...  
+- Day23_Class_Work  
+- Day23_Lab_Ass  
 
-This structure reflects the **step-by-step learning approach followed during the training program**.
+This structure reflects the step-by-step learning approach followed during the training program.
 
 ---
 
