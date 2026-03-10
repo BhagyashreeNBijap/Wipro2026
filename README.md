@@ -1,32 +1,48 @@
-# 🎓 Wipro 2026 Training Repository
+# 🎓 Wipro 2026 Training – Test Automation Track
 
-[![Python](https://img.shields.io/badge/Python-Programming-blue.svg)](https://www.python.org)
-[![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green.svg)](https://www.selenium.dev)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org)
+[![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green.svg)](https://selenium.dev)
 [![Robot Framework](https://img.shields.io/badge/RobotFramework-Automation-red.svg)](https://robotframework.org)
 [![PyTest](https://img.shields.io/badge/PyTest-Testing-yellow.svg)](https://pytest.org)
 
-> This repository contains **class programs, lab assignments, case studies, and capstone projects completed during the Wipro 2026 Training Program.**
+> **Repository documenting my learning journey during the Wipro 2026 Training Program in Python Automation Testing**
 
 ---
 
-# 📌 About
+# 📋 Table of Contents
 
-This repository documents my **learning journey during the Wipro Training Program**.
-
-It includes:
-
-- Day-wise class work
-- Lab assignments
-- Python programming practice
-- Automation testing practice
-- Case studies
-- Capstone projects
-
-The repository demonstrates **hands-on experience in Python programming and automation testing using Selenium, Robot Framework, and PyTest.**
+- About  
+- Repository Structure  
+- Technology Stack  
+- Projects & Case Studies  
+- Capstone Projects  
+- Training Work  
+- Skills Demonstrated  
+- Installation  
+- Running Programs  
+- Author  
 
 ---
 
-# 📂 Repository Structure
+# 🚀 About
+
+This repository contains all the **class programs, lab assignments, case studies, and projects completed during the Wipro 2026 Training Program.**
+
+The training focuses on **Automation Testing using Python, Selenium WebDriver, Robot Framework, and PyTest.**
+
+### Training Focus
+
+- Python Programming
+- Selenium WebDriver Automation
+- Robot Framework Testing
+- PyTest Automation
+- Web Testing
+- Test Case Design
+- Real-time Project Implementation
+
+---
+
+# 📁 Repository Structure
 
 ```
 Wipro2026
@@ -37,7 +53,7 @@ Wipro2026
 │
 ├── Case Study 3 - Online Movies Ticket Booking System
 ├── Case Study 4 - Hospital Management System
-├── Case_Study1
+├── Case_Study1 (Smart University Management System)
 │
 ├── D4_Class_Programs
 ├── D5_Class_Programs
@@ -102,11 +118,84 @@ Wipro2026
 ├── Day23_Class_Work
 ├── Day23_Lab_Ass
 │
-├── Day2_class
-├── a.txt
-│
 └── README.md
 ```
+
+---
+
+# 🛠 Technology Stack
+
+| Category | Technology |
+|--------|-----------|
+| Programming | Python |
+| Automation Testing | Selenium WebDriver |
+| Testing Framework | Robot Framework |
+| Test Framework | PyTest |
+| Web | HTML |
+| Version Control | Git & GitHub |
+| IDE | VS Code / Eclipse |
+
+---
+
+# 📚 Projects & Case Studies
+
+## 🎓 Case Study 1 – Smart University Management System
+
+This project simulates a **University Management System** to manage students and academic activities.
+
+### Features
+
+- Student registration  
+- Course management  
+- Faculty management  
+- Attendance tracking  
+- Examination management  
+- Result processing  
+
+### Concepts Practiced
+
+- Python programming  
+- Data handling  
+- CRUD operations  
+- System workflow implementation  
+
+---
+
+## 🎬 Case Study 3 – Online Movies Ticket Booking System
+
+This case study simulates an **online movie ticket booking system.**
+
+### Features
+
+- Select movies  
+- Choose seats  
+- Book tickets  
+- View booking confirmation  
+
+### Concepts Practiced
+
+- Program logic  
+- User input handling  
+- Workflow implementation  
+
+---
+
+## 🏥 Case Study 4 – Hospital Management System
+
+This project simulates a **Hospital Management System**.
+
+### Features
+
+- Patient registration  
+- Doctor management  
+- Appointment scheduling  
+- Patient records  
+
+### Concepts Practiced
+
+- Data management  
+- Application workflow  
+- Python programming  
 
 ---
 
@@ -114,7 +203,7 @@ Wipro2026
 
 ## 🍔 Foodie App
 
-Location:
+Location
 
 ```
 Capstone Project/Foodie_App
@@ -122,100 +211,40 @@ Capstone Project/Foodie_App
 
 This project demonstrates **application development and testing concepts**.
 
-Possible modules include:
+### Modules
 
-- Restaurant management
-- Menu management
-- Order processing
-- Customer feedback
+- Restaurant management  
+- Menu management  
+- Order processing  
+- Customer feedback  
 
 ---
 
-## 🛒 E-Commerce Automation Testing Project
+## 🛒 Ecommerce Automation Testing Project
 
-This project automates testing of an **E-Commerce web application**.
+Location
+
+```
+Capstone Project/Ecommerce_Automation_Project
+```
+
+This project automates testing of an **Ecommerce website using Selenium and Python.**
 
 ### Technologies Used
 
-- Python
-- Selenium WebDriver
-- Robot Framework
-- PyTest
-- Page Object Model (POM)
-- Git & GitHub
+- Python  
+- Selenium WebDriver  
+- Robot Framework  
+- PyTest  
+- Page Object Model (POM)  
 
-### Automated Features
+### Automated Scenarios
 
-- User Login
-- Product Search
-- Add to Cart
-- Cart Validation
-- Checkout Process
-- End-to-End Purchase Flow
-
----
-
-# 🧪 Case Studies
-
-## 🎓 Case Study 1 – Smart University Management System
-
-This case study simulates a **Smart University Management System** designed to manage academic and administrative activities within a university.
-
-### Features
-
-- Student registration and profile management
-- Course enrollment and management
-- Faculty management
-- Attendance tracking
-- Examination and result management
-- Fee management
-- Academic record maintenance
-
-### Concepts Practiced
-
-- Python programming
-- Data handling
-- Program logic implementation
-- CRUD operations
-- System workflow design
-
----
-
-## 🎬 Case Study 3 – Online Movies Ticket Booking System
-
-This case study simulates a **movie ticket booking application**.
-
-### Features
-
-- Movie selection
-- Ticket booking
-- Seat availability checking
-- Booking confirmation
-
-### Concepts Practiced
-
-- Program flow control
-- User input handling
-- System workflow logic
-
----
-
-## 🏥 Case Study 4 – Hospital Management System
-
-This case study simulates a **hospital management system**.
-
-### Features
-
-- Patient registration
-- Doctor management
-- Appointment handling
-- Patient records
-
-### Concepts Practiced
-
-- Data management
-- System design
-- Application workflow
+- Login functionality  
+- Product search  
+- Add to cart  
+- Cart validation  
+- Checkout process  
 
 ---
 
@@ -223,7 +252,7 @@ This case study simulates a **hospital management system**.
 
 ## 📅 Daily Class Programs
 
-Folders such as:
+Examples
 
 ```
 Day3_Class_Programs
@@ -233,20 +262,20 @@ Day15_Class_Work
 Day21_Class_Work
 ```
 
-contain programs written during **daily training sessions**.
+These folders contain programs written during **daily training sessions.**
 
-Topics include:
+### Topics Covered
 
-- Python programming
-- Control structures
-- Functions
-- Object-Oriented Programming
+- Python basics  
+- Control structures  
+- Functions  
+- Object-Oriented Programming  
 
 ---
 
 ## 📝 Lab Assignments
 
-Folders such as:
+Examples
 
 ```
 Day3_Lab_Ass
@@ -257,38 +286,11 @@ Day21_Lab_Ass
 Day23_Lab_Ass
 ```
 
-contain **lab exercises and assignments** provided during training.
+Lab assignments help practice:
 
-These assignments help practice:
-
-- Python problem solving
-- Programming logic
-- Automation testing basics
-
----
-
-# 🛠 Technologies Used
-
-### Programming
-
-- Python
-
-### Automation Testing
-
-- Selenium WebDriver
-- Robot Framework
-- PyTest
-
-### Web Technologies
-
-- HTML
-- CSS
-
-### Tools
-
-- Git
-- GitHub
-- VS Code / Eclipse
+- Python problem solving  
+- Programming logic  
+- Automation testing basics  
 
 ---
 
@@ -296,41 +298,41 @@ These assignments help practice:
 
 ### Programming Skills
 
-- Python programming
-- Problem solving
-- Program design
+- Python programming  
+- Problem solving  
+- Logical thinking  
 
 ### Automation Skills
 
-- Selenium WebDriver automation
-- Robot Framework testing
-- PyTest automation framework
+- Selenium WebDriver automation  
+- Robot Framework testing  
+- PyTest framework  
 
-### Software Development Skills
+### Development Skills
 
-- Case study implementation
-- Project structure
-- Version control using Git
+- Case study implementation  
+- Project structure  
+- Version control using Git  
 
 ---
 
-# ⚙️ Installation
+# ⚙ Installation
 
-Clone the repository:
+Clone the repository
 
-```bash
+```
 git clone https://github.com/BhagyashreeNBijap/Wipro2026.git
 ```
 
-Navigate to the repository:
+Navigate to project
 
-```bash
+```
 cd Wipro2026
 ```
 
 ---
 
-# ▶️ Running Python Programs
+# ▶ Running Python Programs
 
 ```
 python program.py
@@ -343,20 +345,26 @@ python program.py
 **Bhagyashree N**
 
 📧 Email  
-bhagyan125@gmail.com
+bhagyan125@gmail.com  
 
 💻 GitHub  
-https://github.com/BhagyashreeNBijap
+https://github.com/BhagyashreeNBijap  
 
 🔗 LinkedIn  
-https://linkedin.com/in/bhagyashreebijap
+https://linkedin.com/in/bhagyashreebijap  
 
 ---
 
 # 📄 License
 
-This repository is created for **educational purposes as part of Wipro 2026 Training Program**.
+This repository is created for **educational purposes as part of the Wipro 2026 Training Program.**
 
 ---
 
-⭐ If you found this repository helpful, please **consider starring it on GitHub**.
+<div align="center">
+
+⭐ **Star this repository if you found it helpful!**
+
+Made with ❤️ during **Wipro 2026 Training**
+
+</div>
