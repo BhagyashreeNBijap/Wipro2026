@@ -40,12 +40,14 @@ This repository demonstrates:
 
 ---
 
-# 📁 Repository Structure
+## 📁 Repository Structure
+
+```
 Wipro2026
 │
 ├── Capstone Project
-│ ├── Foodie_App
-│ └── Ecommerce_Automation_Project
+│   ├── Foodie_App
+│   └── Ecommerce_Automation_Project
 │
 ├── Case Study 3 - Online Movies Ticket Booking System
 ├── Case Study 4 - Hospital Management System
@@ -115,7 +117,7 @@ Wipro2026
 ├── Day23_Lab_Ass
 │
 └── README.md
-
+```
 
 ---
 
